@@ -24,7 +24,7 @@ const AudioUploader = () => {
     try {
 
       const response = await axios.post(
-        "http://localhost:8080/api/transcribe",
+        "https://ai-audio-transcriber.onrender.com/api/transcribe",
         formData,
         {
           headers: {
