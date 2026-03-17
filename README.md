@@ -1,4 +1,4 @@
-# 🎧 Audio to Text Transcriber
+# 🎧 AI Audio Transcriber
 
 AI-powered **audio-to-text transcription web application** that converts speech into text using a **React frontend** and **Spring Boot backend**. Users can upload audio files and receive accurate text transcriptions powered by AI speech recognition APIs.
 
@@ -49,22 +49,47 @@ Transcription Result
 
 * Speech-to-Text API (Whisper / Groq / OpenAI)
 
----
-
 # 📂 Project Structure
 
 ```
-ai-audio-transcriber
-│
-├── Audio-Transcriber           # Spring Boot Backend
-│   ├── src
-│   ├── pom.xml
-│
-├── audio-transcriber-frontend  # React Frontend
-│   ├── src
-│   ├── package.json
-│
-└── README.md
+Directory structure:
+└── ai-audio-transcriber/
+    ├── README.md
+    ├── Audio-Transcriber/
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   ├── java/
+    │   │   │   │   └── com/
+    │   │   │   │       └── audioTranscriber/
+    │   │   │   │           ├── Application.java
+    │   │   │   │           ├── TranscriptionController.java
+    │   │   │   │           └── WebConfig.java
+    │   │   │   └── resources/
+    │   │   │       └── application.properties
+    │   │   └── test/
+    │   │       └── java/
+    │   │           └── com/
+    │   │               └── audioTranscriber/
+    │   │                   └── ApplicationTests.java
+    │   └── .mvn/
+    │       └── wrapper/
+    │           └── maven-wrapper.properties
+    └── audio-transcriber-frontend/
+        ├── README.md
+        ├── eslint.config.js
+        ├── index.html
+        ├── package.json
+        ├── vite.config.js
+        └── src/
+            ├── App.css
+            ├── App.jsx
+            ├── AudioUploader.jsx
+            ├── index.css
+            └── main.jsx
+
 ```
 
 
@@ -73,11 +98,9 @@ ai-audio-transcriber
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-audio-transcriber.git
+git clone https://github.com/himanshux19/ai-audio-transcriber.git
 cd ai-audio-transcriber
 ```
-
----
 
 ## 2️⃣ Backend Setup (Spring Boot)
 
@@ -98,8 +121,6 @@ Backend runs on:
 ```
 http://localhost:8080
 ```
-
----
 
 ## 3️⃣ Frontend Setup (React)
 
@@ -126,8 +147,6 @@ Frontend runs on:
 ```
 http://localhost:5173
 ```
-
----
 
 # 🔐 Environment Variables
 
