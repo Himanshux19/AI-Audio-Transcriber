@@ -1,0 +1,17 @@
+# environment
+.env
+.env.*
+
+# backend
+Audio-Transcriber/target/
+
+# frontend
+audio-transcriber-frontend/node_modules
+audio-transcriber-frontend/dist
+
+# IDE
+.idea
+.vscode
+
+# logs
+*.log
