@@ -164,13 +164,11 @@ or
 GROQ_API_KEY=your_api_key_here
 ```
 
----
-
 # 📸 Demo
 
 Upload an audio file → AI processes the speech → Text transcription appears instantly.
 
----
+<img width="1365" height="626" alt="image" src="https://github.com/user-attachments/assets/2c02c5f3-cf71-4827-9fd9-a9afb8e3db6b" />
 
 # 💡 Future Improvements
 
@@ -180,8 +178,8 @@ Upload an audio file → AI processes the speech → Text transcription appears 
 * Multi-language support
 * Drag-and-drop audio upload
 
----
-
 # 👨‍💻 Author
 
 **Himanshu Singh**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/himanshux19)
